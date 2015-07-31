@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D672EF1B6B87E600B6649C /* MSIFoneOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D672EE1B6B87E600B6649C /* MSIFoneOne.m */; };
 		84DC9F811B68F5EB00D689D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC9F801B68F5EB00D689D7 /* main.m */; };
 		84DC9F841B68F5EB00D689D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC9F831B68F5EB00D689D7 /* AppDelegate.m */; };
 		84DC9F871B68F5EB00D689D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC9F861B68F5EB00D689D7 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84D672ED1B6B87E600B6649C /* MSIFoneOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIFoneOne.h; sourceTree = "<group>"; };
+		84D672EE1B6B87E600B6649C /* MSIFoneOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIFoneOne.m; sourceTree = "<group>"; };
 		84DC9F7B1B68F5EB00D689D7 /* helloword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DC9F7F1B68F5EB00D689D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DC9F801B68F5EB00D689D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84D6B32C1B6AF19E00101358 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				84D672ED1B6B87E600B6649C /* MSIFoneOne.h */,
+				84D672EE1B6B87E600B6649C /* MSIFoneOne.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		84DC9F721B68F5EB00D689D7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 		84DC9F7D1B68F5EB00D689D7 /* helloword */ = {
 			isa = PBXGroup;
 			children = (
+				84D6B32C1B6AF19E00101358 /* New Group */,
 				84DC9F821B68F5EB00D689D7 /* AppDelegate.h */,
 				84DC9F831B68F5EB00D689D7 /* AppDelegate.m */,
 				84DC9F851B68F5EB00D689D7 /* ViewController.h */,
@@ -221,6 +234,7 @@
 			files = (
 				84DC9F871B68F5EB00D689D7 /* ViewController.m in Sources */,
 				84DC9F841B68F5EB00D689D7 /* AppDelegate.m in Sources */,
+				84D672EF1B6B87E600B6649C /* MSIFoneOne.m in Sources */,
 				84DC9F811B68F5EB00D689D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +432,7 @@
 				84DC9FA01B68F5EB00D689D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DC9FA11B68F5EB00D689D7 /* Build configuration list for PBXNativeTarget "hellowordTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				84DC9FA31B68F5EB00D689D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

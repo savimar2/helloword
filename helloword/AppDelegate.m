@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MSIFoneOne.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    MSIFoneOne * msfone = [[MSIFoneOne alloc] init];
+    [msfone makeI_Fone];
+    
     return YES;
 }
 
